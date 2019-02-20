@@ -16,7 +16,7 @@ header {
 .hero-img {
     background-image: url('photo/herobanner.jpg');
     width: 100%;
-    height: 100vh;
+    height: 101vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
