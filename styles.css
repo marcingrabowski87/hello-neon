@@ -224,6 +224,7 @@ nav.active {
 
 .hello-section p:nth-child(3) a {
     text-decoration: none;
+    color: #fff;
 }
 
 .hello-section p:nth-child(3) {
@@ -282,6 +283,10 @@ form input:last-child {
     font-weight: bold;
 }
 
+form input:last-child:hover {
+    cursor: pointer;
+}
+
 form label {
     width: 50%;
     display: inline-block;
@@ -299,6 +304,11 @@ form label {
 }
 
 @media screen and (min-width:1024px) {
+    .hello-section p:nth-child(3) a:hover,
+    nav ul li a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
     .hello-section p:nth-child(3) {
         padding-left: 0px;
     }
