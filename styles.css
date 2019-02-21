@@ -116,6 +116,7 @@ nav ul {
     height: 60vh;
     width: 100%;
     text-align: center;
+    list-style-type: none;
 }
 
 nav ul li a {
