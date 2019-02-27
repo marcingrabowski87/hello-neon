@@ -3,12 +3,12 @@ function action() {
 
 }
 
-function removeaction() {
+function removeAction() {
     document.querySelector('nav').classList.remove('active');
 
 }
 
 document.querySelector('.hamburger').addEventListener('click', action)
 document.querySelectorAll('nav ul li a').forEach(function (clickedLink) {
-    clickedLink.addEventListener('click', removeaction)
+    clickedLink.addEventListener('click', removeAction)
 });
